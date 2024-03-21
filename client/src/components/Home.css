@@ -1,0 +1,90 @@
+/* Home.css */
+
+.home-hero-section {
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-image: url('bg.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.ch{
+  color:wheat;
+}
+.cha{
+    color: wheat;
+}
+
+.home-center-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-text-container {
+  text-align: center;
+}
+
+/* Rest of your existing styles */
+
+.home-hero-section h1 {
+  font-size: 3rem;
+  margin-bottom: 25px;
+}
+
+.home-hero-section p {
+  font-size: 1.8rem;
+  margin-bottom: 40px;
+}
+
+.home-cta-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.home-cta-buttons button {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-top: 20px; /* Adjusted margin to center the button */
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  backdrop-filter: blur(10px);
+  padding: 15px 30px;
+  font-size: 2rem;
+  margin: 0 20px;
+  border-radius: 20px;
+}
+
+/* Button hover effect */
+.home-button-link button:hover {
+  color: #03C988;
+  background-color: #00337C;
+}
+
+/* Active link style */
+.home-nav-links a.active {
+  color: #03C988;
+}
+
+.home-wallet-container {
+  margin-bottom: 20px;
+}
+
+.home-connect-wallet-button {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: background-color 0.3s;
+}
+
+.home-connect-wallet-button:hover {
+  background-color: #09ec18;
+}

@@ -1,0 +1,54 @@
+/* src/SignIn.css */
+
+.signin-container {
+  max-width: fit-content;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative; /* Make the container position relative */
+}
+
+/* Add the close button styling */
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #555;
+}
+
+.signin-container h2 {
+  text-align: center;
+  color: #333;
+}
+
+.signin-container label {
+  display: block;
+  margin: 10px 0 5px;
+  color: #555;
+}
+
+.signin-container input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.signin-container button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.signin-container button:hover {
+  background-color: #45a049;
+}

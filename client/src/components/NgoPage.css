@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.ngo-page-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start; /* Adjusted alignment to flex-start */
+  justify-content: center;
+  background-image: url('bg.jpg');
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+}
+
+
+.ngo-page-container .login-container {
+  background: rgba(64, 64, 64, 0.15);
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  padding: 30px;
+  border-radius: 16px;
+  backdrop-filter: blur(25px);
+  text-align: center;
+  color: white;
+  width: 450px;
+  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.15);
+  margin-bottom: 20px;
+}
+
+.ngo-page-container .login-title {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.ngo-page-container .input-box {
+  margin: 20px 0;
+  position: relative;
+}
+
+.ngo-page-container .input-box input {
+  width: 85%;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 99px;
+  outline: 3px solid transparent;
+  transition: 0.3s;
+  font-size: 17px;
+  color: white;
+  font-weight: 600;
+  padding-left: 40px; /* Adjust the padding to create space for the icon */
+}
+
+.ngo-page-container .input-box input::placeholder {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.ngo-page-container .input-box input:focus {
+  outline: 3px solid rgba(255, 255, 255, 0.3);
+}
+
+.ngo-page-container .input-box input::-ms-reveal {
+  filter: invert(100%);
+}
+
+.ngo-page-container .input-box i {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.ngo-page-container .login-btn {
+  width: 100%;
+  padding: 10px 0;
+  background: #2F9CF4;
+  border: none;
+  border-radius: 99px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.ngo-page-container .login-btn:hover {
+  background: #0B87EC;
+}

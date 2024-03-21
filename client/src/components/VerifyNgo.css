@@ -1,0 +1,103 @@
+/* Global styles (outside the component) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Component-specific styles */
+.verify-ngo-component {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('bg.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.verify-ngo-form-container {
+  color: azure;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+}
+
+.verify-ngo-form-container .login-form {
+  background: rgba(64, 64, 64, 0.15);
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  padding: 30px;
+  border-radius: 16px;
+  backdrop-filter: blur(25px);
+  text-align: center;
+  color: white;
+  width: 100%;
+  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.15);
+  margin-right: 20px;
+  margin-bottom: 20px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr;
+
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.verify-ngo-form-container .input-box.postal-code {
+  width: 100%;
+}
+
+.verify-ngo-form-container .input-box {
+  position: relative;
+  width: 100%;
+}
+
+.verify-ngo-form-container .input-box.ngo-name,
+.verify-ngo-form-container .input-box.first-name,
+.verify-ngo-form-container .input-box.city,
+.verify-ngo-form-container .input-box.state,
+.verify-ngo-form-container .input-box.experience,
+.verify-ngo-form-container .input-box.postal-code {
+  width: 100%;
+}
+
+.verify-ngo-form-container .input-box input {
+  width: 85%; /* Adjusted input width */
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 99px;
+  outline: 3px solid transparent;
+  transition: 0.3s;
+  font-size: 17px;
+  color: white;
+  font-weight: 600;
+  padding-left: 40px;
+}
+
+.verify-ngo-form-container .input-box i {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.verify-ngo-form-container .login-btn {
+  width: 100%; /* Adjusted button width */
+  margin: 10px;
+  padding: 10px 0;
+  background: rgba(255, 255, 255, 0.2); /* Match background color */
+  color: white;
+  border: none;
+  border-radius: 20px;
+  background: #2F9CF4;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.verify-ngo-form-container .login-btn:hover {
+    background: #0B87EC;
+}

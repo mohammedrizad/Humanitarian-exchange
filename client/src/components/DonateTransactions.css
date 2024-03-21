@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* DonateTransactions.css */
+.donate-transactions-container {
+  min-height: 100vh;
+  min-width: initial;
+  display: flex;
+  flex-direction: column; /* Change to column */
+  justify-content: flex-start; /* Align items at the start */
+  align-items: center;
+  background-image: url('bgg.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.donate-transactions-hh{
+  color: white;
+}
+
+.donate-transactions-card {
+  background: rgba(64, 64, 64, 0.1); /* Adjust the alpha value (last parameter) for transparency */
+  margin: 10px;
+  min-width: 350px;
+  max-width: 400px;
+  width: 100%;
+  padding: 15px;
+  border-radius: 16px;
+  transition: box-shadow 0.3s;
+  color: white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  backdrop-filter: blur(25px);
+  border: 3px solid rgba(255, 255, 255, 0.3);
+}
+
+.donate-transactions-link .donate-from-to-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.donate-transactions-link .donate-from,
+.donate-transactions-link .donate-to {
+  width: 48%;
+}
+
+.donate-transactions-link a {
+  color: white;
+  text-decoration: none;
+}
+
+.donate-transactions-link a:hover {
+  text-decoration: underline;
+}
+
+.donate-transaction-info {
+  margin: 5px 0;
+}
+
+.donate-transactions-timestamp {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  color: #37c7da;
+  font-weight: bold;
+  text-align: center;
+}
+
+.donate-transactions-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
