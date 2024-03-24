@@ -9,7 +9,7 @@ const fs = require('fs');
 router.use(
   cors({
     credentials: true,
-    origin: 'https://humanitarian-exchange-platform.netlify.app/' 
+    origin: 'http://localhost:5173' 
   })
 );
 
