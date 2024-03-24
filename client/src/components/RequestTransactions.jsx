@@ -40,7 +40,7 @@ const RequestTransactionsCard = ({
       <p className="request-transaction-info">Name: {firstname}</p>
       <p className="request-transaction-info">Location: {location}</p>
       <p className="request-transaction-info">Description: {description}</p>
-      <p className="request-transaction-info">Availability: {availability}</p>
+      <p className="request-transaction-info">Desired Quantity: {availability}</p>
       <div className="request-transactions-timestamp">
         <p>{timestamp}</p>
       </div>
