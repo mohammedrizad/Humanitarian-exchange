@@ -3,7 +3,7 @@ const dotenv = require('dotenv').config();
 const cors = require('cors');
 const mongoose = require('mongoose'); // Correct import
 
-mongoose.connect(process.env.MONGO_URL, )
+mongoose.connect(process.env.MONGO_URL || "mongodb://0.0.0.0:27017", )
     .then(() => console.log('Database Connected'))
     .catch((err) => console.log('Database not connected', err));
 
