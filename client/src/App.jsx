@@ -4,7 +4,7 @@ import axios from 'axios';
 import AOS from 'aos';
 import "aos/dist/aos.css";
 import {Toaster} from 'react-hot-toast';
-axios.defaults.baseURL='https://humanitarian-exchange.onrender.com/';
+axios.defaults.baseURL='http://localhost:8000/';
 axios.defaults.credentials=true;
 
 const App=()=>{
